@@ -1,6 +1,7 @@
 package com.upgrad.quora.api;
 
 public class Response {
+	
 	String code;
 	String message;
 	public Response(String code, String message) {
