@@ -1,7 +1,10 @@
 package com.upgrad.quora.service.exception;
 
+import org.springframework.http.HttpStatus;
 import java.io.PrintStream;
 import java.io.PrintWriter;
+
+import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * AnswerNotFoundException is thrown when the answer is not found in the database.
